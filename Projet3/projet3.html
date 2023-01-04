@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="init.css">
+    <link rel="stylesheet" href="projet3.css">
+    <title>Rotating Navigation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="500" height="500" class="close-ico">
+                        <path d="M9.15625 6.3125L6.3125 9.15625L22.15625 25L6.21875 40.96875L9.03125 43.78125L25 27.84375L40.9375 43.78125L43.78125 40.9375L27.84375 25L43.6875 9.15625L40.84375 6.3125L25 22.15625Z" fill="#FFFFFF"/>
+                      </svg>
+                </button>
+                <button id="open">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="500" height="500" class="bars">
+                        <path d="M0 7.5L0 12.5L50 12.5L50 7.5 Z M 0 22.5L0 27.5L50 27.5L50 22.5 Z M 0 37.5L0 42.5L50 42.5L50 37.5Z" fill="#FFFFFF" />
+                      </svg>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1> Amazing Article </h1>
+            <small> Florin Pop </small>
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio deserunt aspernatur quae, repellat cum quisquam. Perspiciatis ut repellendus dicta ducimus adipisci, et aspernatur facere! Nesciunt eveniet tempora quas adipisci enim, dolore eius sequi provident! Vero, culpa commodi provident ea quo, voluptate, quas expedita vel necessitatibus sit libero at magni! Nobis sint reprehenderit magnam ducimus ullam atque accusantium, earum nulla modi delectus expedita inventore distinctio, fugit doloremque temporibus, quisquam dolore! Quod pariatur nihil debitis et tempora cumque voluptates totam, eligendi consequuntur amet vel laborum exercitationem quis optio iusto porro sed. Incidunt quae quis aperiam quas hic eos error in facilis! </p>
+
+            <h1> My Cat </h1>
+            <img src="img/myCat.jpg" alt="myCat">
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nesciunt debitis harum omnis enim eveniet dolores qui blanditiis quo suscipit, praesentium cum sunt exercitationem odio ipsam adipisci repellat excepturi ab. Ratione, illum est nemo inventore et beatae possimus enim nobis accusamus iure deserunt quo libero dolorem amet nam voluptatibus molestiae maiores vel numquam eligendi eum debitis. Repellendus, deleniti beatae ipsa nulla, consequuntur sequi modi id facilis sint quidem at explicabo. Temporibus beatae dolor sequi accusantium quas alias eaque iste et vitae magni at voluptatibus, culpa itaque perferendis asperiores necessitatibus omnis, praesentium maiores cum fuga eligendi velit! Tempore pariatur saepe corrupti. </p>
+
+        </div>
+
+    </div>
+    <nav>
+        <ul>
+            <li> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="500" height="500" class="home">
+                <path d="M25 1.0507812C24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656L1.3808594 19.210938C0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141C1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062L4 19.710938L4 46C4 46.55 4.45 47 5 47L19 47L19 29L31 29L31 47L45 47C45.55 47 46 46.55 46 46L46 19.710938L47.380859 20.789062C47.570859 20.929063 47.78 21 48 21C48.3 21 48.589063 20.869141 48.789062 20.619141C49.129063 20.179141 49.049141 19.550938 48.619141 19.210938L25.619141 1.2597656C25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5L35 6.0507812L41 10.730469L41 5L35 5 z" fill="#FFFFFF" />
+              </svg> Home </li>
+            <li> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="500" height="500" class="user">
+                <path d="M30.933594 32.527344C30.785156 30.914063 30.84375 29.789063 30.84375 28.316406C31.574219 27.933594 32.882813 25.492188 33.101563 23.429688C33.675781 23.382813 34.582031 22.824219 34.847656 20.613281C34.988281 19.425781 34.421875 18.757813 34.074219 18.546875C35.007813 15.738281 36.949219 7.046875 30.488281 6.148438C29.820313 4.980469 28.117188 4.390625 25.90625 4.390625C17.050781 4.554688 15.984375 11.078125 17.925781 18.546875C17.578125 18.757813 17.011719 19.425781 17.152344 20.613281C17.421875 22.824219 18.324219 23.382813 18.898438 23.429688C19.117188 25.492188 20.476563 27.933594 21.210938 28.316406C21.210938 29.789063 21.265625 30.914063 21.117188 32.527344C19.367188 37.238281 7.546875 35.914063 7 45L45 45C44.453125 35.914063 32.683594 37.238281 30.933594 32.527344Z" fill="#FFFFFF" />
+              </svg> About </li>
+            <li> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="500" height="500" class="envelope">
+                <path d="M0 7L0 9.78125C3.011719 12.402344 20.289063 27.464844 21.65625 28.65625C23.0625 29.882813 24.464844 30 25 30C25.535156 30 26.9375 29.882813 28.34375 28.65625C29.761719 27.421875 48.046875 11.480469 50 9.78125L50 7 Z M 0 12.4375L0 37.53125L15.125 25.59375C10.222656 21.328125 3.230469 15.25 0 12.4375 Z M 50 12.4375C46.949219 15.09375 39.847656 21.265625 34.875 25.59375L50 37.5 Z M 16.65625 26.9375L0 40.0625L0 43L50 43L50 40.03125L33.34375 26.9375C31.40625 28.625 30.011719 29.847656 29.65625 30.15625C27.738281 31.824219 25.757813 32 25 32C24.242188 32 22.261719 31.828125 20.34375 30.15625C19.992188 29.851563 18.597656 28.628906 16.65625 26.9375Z" fill="#FFFFFF" />
+              </svg> Contact </li>  
+        </ul>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
